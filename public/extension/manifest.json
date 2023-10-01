@@ -1,6 +1,6 @@
 {
   "manifest_version": 3,
-  "name": "NHelpMeOut",
+  "name": "HelpMeOut",
   "description": "A chrome extension that allows users to record their screens and share with others",
   "icons": {
     "128": "icons128.png"
