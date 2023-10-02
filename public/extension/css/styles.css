@@ -1,16 +1,15 @@
 /* font import */
-@import url('https://fonts.googleapis.com/css2?family=Sora:wght@100;400;500;600;700;800&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Sora:wght@100;400;500;600;700;800&display=swap");
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Sora', sans-serif;
+  font-family: "Sora", sans-serif;
 }
 
-
 .popup {
-  padding: 2rem;
+  padding: 1.5rem;
   width: 300px;
 }
 
@@ -41,14 +40,13 @@
 
 .btn {
   padding: 1rem;
-  background-color: #120B48;
+  background-color: #120b48;
   width: 100%;
   color: white;
   border: none;
   border-radius: 16px;
   cursor: pointer;
 }
-
 
 .switch {
   position: relative;
@@ -71,8 +69,8 @@
   right: 0;
   bottom: 0;
   background-color: #ccc;
-  -webkit-transition: .4s;
-  transition: .4s;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
 }
 
 .slider:before {
@@ -83,19 +81,19 @@
   left: 2px;
   bottom: 2px;
   background-color: white;
-  -webkit-transition: .4s;
-  transition: .4s;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
 }
 
-input:checked+.slider {
-  background-color: #120B48;
+input:checked + .slider {
+  background-color: #120b48;
 }
 
-input:focus+.slider {
-  box-shadow: 0 0 1px #120B48;
+input:focus + .slider {
+  box-shadow: 0 0 1px #120b48;
 }
 
-input:checked+.slider:before {
+input:checked + .slider:before {
   -webkit-transform: translateX(26px);
   -ms-transform: translateX(26px);
   transform: translateX(16px);
@@ -106,7 +104,7 @@ input:checked+.slider:before {
   padding: 1rem;
   justify-content: space-between;
   align-items: center;
-  border: 1px solid #120B48;
+  border: 1px solid #120b48;
   border-radius: 12px;
   margin-bottom: 1rem;
 }
