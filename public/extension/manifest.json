@@ -1,0 +1,25 @@
+{
+  "manifest_version": 3,
+  "name": "HelpMeOut",
+  "description": "A chrome extension that allows users to record their screens and share with others",
+  "icons": {
+    "128": "icons128.png"
+  },
+
+  "background": {
+    "service_worker": "background.js"
+  },
+
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "icons16.png",
+      "32": "icons32.png",
+      "128": "icons128.png"
+    }
+  },
+
+  "host_permissions": ["http://*/", "https://*/"],
+  "permissions": ["tabs", "scripting", "activeTab"],
+  "version": "1.0.0"
+}

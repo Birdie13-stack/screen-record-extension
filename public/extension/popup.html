@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <img src="./logo.png" alt="" />
+        <div class="settings">
+          <img src="./setting.png" alt="" />
+          <img src="./close-circle.png" alt="" />
+        </div>
+      </div>
+
+      <p>This extension helps you record and share help videos with ease.</p>
+
+      <div class="scope">
+        <img src="./full-screen.png" alt="" />
+        <img src="./current.png" alt="" />
+      </div>
+
+      <div class="part">
+        <div class="part1">
+          <img src="./video-camera.png" alt="" />
+          <p>Camera</p>
+        </div>
+
+        <div class="sliding">
+          <label class="switch">
+            <input type="checkbox" />
+            <span class="slider round"></span>
+          </label>
+        </div>
+      </div>
+      <div class="part">
+        <div class="part1">
+          <img src="./microphone.png" alt="" />
+          <p>Audio</p>
+        </div>
+
+        <div class="sliding">
+          <label class="switch">
+            <input type="checkbox" />
+            <span class="slider round"></span>
+          </label>
+        </div>
+      </div>
+
+      <button id="start">Start Recording</button>
+      <button id="end">Stop Recording</button>
+    </div>
+    <script src="./js/popup.js"></script>
+  </body>
+</html>
